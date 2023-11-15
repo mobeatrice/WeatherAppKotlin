@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@drawable/blue_background">
+
+    <RelativeLayout
+        android:id="@+id/mainSettingsContainer"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/settingsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/back_button"
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:text="X"
+                android:textSize="15sp"></Button>
+
+            <TextView
+                android:id="@+id/settings"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Settings"
+                android:textSize="25sp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settingsBody"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/settingsContainer"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/settingsText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Settings information"
+                android:textSize="15sp"></TextView>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
