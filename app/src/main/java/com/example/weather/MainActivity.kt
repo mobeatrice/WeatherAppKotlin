@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity()
         supportFragmentManager.beginTransaction()
             .replace(R.id.mainContainer, WeatherFragment())
             .commit()
+<<<<<<< HEAD
 
        /* fun replaceFragment (fragment: Fragment)
         {
@@ -55,6 +56,8 @@ class MainActivity : AppCompatActivity()
         settingsButton.setOnClickListener {
             replaceFragment(SettingsFragment())
         }*/
+=======
+>>>>>>> a9afba1 (Second commit - modified MainActivity.kt)
     }
 }
 
