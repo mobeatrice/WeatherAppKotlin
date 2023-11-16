@@ -36,26 +36,7 @@ class MainActivity : AppCompatActivity()
         supportFragmentManager.beginTransaction()
             .replace(R.id.mainContainer, WeatherFragment())
             .commit()
-<<<<<<< HEAD
 
-       /* fun replaceFragment (fragment: Fragment)
-        {
-            /*supportFragmentManager.beginTransaction()
-                .replace(R.id.mainContainer, fragment)
-                .addToBackStack(null)
-                .commitAllowingStateLoss()*/
-
-            val fragmentManager: FragmentManager = supportFragmentManager
-            fragmentManager.commit {
-                setReorderingAllowed(true)
-                replace(R.id.mainContainer, fragment)
-            }
-        }
-        settingsButton.setOnClickListener {
-            replaceFragment(SettingsFragment())
-        }*/
-=======
->>>>>>> a9afba1 (Second commit - modified MainActivity.kt)
     }
 }
 
