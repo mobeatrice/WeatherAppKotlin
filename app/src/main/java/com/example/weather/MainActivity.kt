@@ -33,8 +33,6 @@ class MainActivity : AppCompatActivity()
         textview.text=para
         textview.movementMethod = ScrollingMovementMethod()
 
-
-
         supportFragmentManager.beginTransaction()
             .replace(R.id.mainContainer, WeatherFragment())
             .commit()
