@@ -9,9 +9,6 @@ import com.example.weather.ui.weather.WeatherFragment
 
 class MainActivity : AppCompatActivity()
 {
-
-
-
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
