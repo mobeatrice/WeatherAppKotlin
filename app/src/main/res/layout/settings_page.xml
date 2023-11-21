@@ -2,19 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-<<<<<<< HEAD
-    android:padding="16dp"
-=======
-    android:padding="25dp"
->>>>>>> a9afba1 (Second commit - modified MainActivity.kt)
-    android:background="@drawable/blue_background">
+    android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/mainSettingsContainer"
         android:visibility="visible"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="400dp"
+        android:layout_height="800dp"
+        android:padding="10dp"
+        android:background="@drawable/purple_background"
+        android:layout_gravity="center|bottom">
 
         <LinearLayout
             android:id="@+id/settingsContainer"
@@ -25,15 +22,10 @@
 
             <Button
                 android:id="@+id/back_button"
-                android:layout_width="55dp"
-                android:layout_height="50dp"
-<<<<<<< HEAD
-                android:layout_gravity="right|top"
-=======
-                android:layout_gravity="right"
->>>>>>> a9afba1 (Second commit - modified MainActivity.kt)
-                android:text="X"
-                android:textSize="15sp"></Button>
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="top|right"
+                android:background="@drawable/baseline_close_24"></Button>
 
             <TextView
                 android:id="@+id/settings"
@@ -56,7 +48,6 @@
                 android:id="@+id/settingsText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Settings information"
                 android:textSize="15sp"></TextView>
         </LinearLayout>
 

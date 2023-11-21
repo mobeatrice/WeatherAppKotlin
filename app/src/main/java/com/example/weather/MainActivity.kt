@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity()
             |A lot of things happened today.
             |A lot of things happened today.
             |A lot of things happened today.
-            |A lot of things happened today.
         """.trimMargin()
         textview.text=para
         textview.movementMethod = ScrollingMovementMethod()
